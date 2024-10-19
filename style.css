@@ -1,0 +1,49 @@
+:root{
+    --background-color: #0D1B2A;
+    --navbar-hover: #1B263B;
+    --navbar-color: #415A77;
+    --text-background-color: #778DA9; 
+    --text-color: #E0E1DD;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    background-color: var(--background-color);
+    height: 100%;
+    color: var(--text-color);
+}
+
+.nav {
+    background-color: var(--navbar-color);
+    list-style-type: none;
+    overflow: hidden;
+    max-width: fit-content;
+    margin-inline: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.nav-item {
+    float: left;
+    margin: 5px;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.nav-item:hover {
+    background-color: var(--navbar-hover);
+}
+
+.text-body {
+    margin: 5%;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 45%;
+    height: fit-content;
+    border: black;
+    border-style: solid;
+}
